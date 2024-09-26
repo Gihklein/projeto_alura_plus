@@ -9,12 +9,17 @@ body {
     background-color: var(--cor-de-fundo);
 } 
 background-color: var(--cor-de-fundo);
-color: var(--branco-principal);
+color: var (--branco-principal);
 }*
  {
     margin: 0;
     padding: 0;
 }
 .principal {
+    background-repeat: no-repeat;
+    background-size: contain;
     background-image: url("img/Background.png");
+}
+.container {
+    height: 100vh;
 }
